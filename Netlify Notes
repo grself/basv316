@@ -1,0 +1,39 @@
+Netlify Notes:
+
+To authorize Netlify to access the GitHub repository
+Open GitHub
+  1. Click my image in the top right corner
+  2. Select "Settings"
+  3. Select "Applications"
+  4. Click the "configure" button beside Netlify
+  5. About halfway down the page, click the "Select Repository" button and add the new repository
+
+To set the value of the HUGO_VERSION for site deployment
+From homepage:
+  1. click the domain of interest
+  2. click "Deploys" in the top menubar
+  3. Click the "Deploy settings" button
+  4. Scroll down to the "Build environment variables" section
+  5. Enter the Hugo version. It was 0.49.2 at this writing
+
+To find the name servers for Netlify
+  1. click the domain of interest
+  2. Click the "Domain Settings" button
+  3. Click the "Add custom domain" button
+  4. Enter the name of the domain I'm linking
+  5. Click "Verify"
+  6. Click "Yes, add domain"
+  7. When the primary domain link is available, click the three dots menu on the right
+  8. Click "Set up Netlify DNS"
+  9. Click the "Verify" button
+  10. Click "Yes, add domain"
+  11. On the "Add DNS records" screen, click "Continue"
+  12. Next the new DNS nameservers are displayed. Copy these somewhere because they are hard to find later. Note: Netlify has several DNS nameservers so don't just copy these from another instance. Here are the nameservers for basv316.com:
+  
+  dns1.p02.nsone.net
+  dns2.p02.nsone.net
+  dns3.p02.nsone.net
+  dns4.p02.nsone.net
+  
+  13. Click "Done"
+  14. Go to name.com and enter the new DNS nameservers for the domain.
