@@ -6,7 +6,7 @@ The website can be found at (https://basv316.com).
 
 That landing page contains links to two sub-domains: 
 
-* (https://text.basv316.com). The Github repository is at [grself/BASV316_Text[(https://github.com/grself/BASV316_Text)]
+* (https://text.basv316.com). The Github repository is at [grself/BASV316_Text](https://github.com/grself/BASV316_Text)]
 
 * (https://labs.basv316.com). The Github repository is at [grself/BASV316_Lab_Manual](https://github.com/grself/BASV316_Lab_Manual)
 
